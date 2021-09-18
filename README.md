@@ -4,15 +4,15 @@
 2. Utilize o comando `npm install` na pasta API-Express
 3. Utilize o comando `sudo node src/index.js` para startar o servidor na porta 3001
 
-Estrutura
+Estrutura<br />
 URL Base: http://localhost:3001
 
-1. Criar usuário: `[POST]` : `http://localhost:3001/auth/register`
+1. Criar usuário: `[POST]` : `http://localhost:3001/auth/register` <br />
 
 name: String <br />
-email: String 
-password: String
-
+email: String <br />
+password: String <br />
+<br />
 **Exemplo JSON**
 ```
 {
@@ -23,7 +23,7 @@ password: String
 
 ```
 
-2. Gerar token auth: `[POST]` : `http://localhost:3001/auth/authenticate`
+2. Gerar token auth: `[POST]` : `http://localhost:3001/auth/authenticate` <br />
 **Exemplo JSON**
 ```
 {
@@ -32,7 +32,7 @@ password: String
 }
 ```
 
-3. Validação de usuário: `[GET]` : `http://localhost:3001/projects`
+3. Validação de usuário: `[GET]` : `http://localhost:3001/projects` <br />
 **Exemplo JSON**
 ```
 {
