@@ -5,7 +5,7 @@
 - Criptografia de senha: bcryptjs <br />
 - Bando de dados: MongoDB <br />
 - Mailtrap <br />
-- crypto <br />
+- Crypto <br />
 - Path, fs <br />
 - Nodemailer <br />
 - Handlebars <br />
