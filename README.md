@@ -19,7 +19,7 @@
 URL Base: `http://localhost:3001`
 
 1. Criar usuário: <br />
-`[POST]``http://localhost:3001/auth/register`<br />
+`[POST]` `http://localhost:3001/auth/register`<br />
 
 - name: String <br />
 - email: String <br />
@@ -37,7 +37,7 @@ URL Base: `http://localhost:3001`
 ```
 
 2. Gerar token auth: <br />
-`[POST]` : `http://localhost:3001/auth/authenticate` <br />
+`[POST]` `http://localhost:3001/auth/authenticate` <br />
 
 - email: String <br />
 - password: String <br />
@@ -52,7 +52,7 @@ URL Base: `http://localhost:3001`
 ```
 
 3. Validação de usuário: <br />
-`[GET]` : `http://localhost:3001/projects`<br />
+`[GET]` `http://localhost:3001/projects`<br />
 
 **Exemplo JSON**
 <br />
@@ -64,7 +64,7 @@ URL Base: `http://localhost:3001`
 ```
 
 4. Esqueceu a senha? Solicite um token para redefinição: <br />
-`[POST]` : `http://localhost:3001/auth/forgot_password` <br />
+`[POST]` `http://localhost:3001/auth/forgot_password` <br />
 
 - email: String <br />
 
@@ -77,7 +77,7 @@ URL Base: `http://localhost:3001`
 ```
 
 4. Esqueceu a senha? Solicite um token para redefinição:<br />
-`[POST]` : `http://localhost:3001/auth/reset_password`<br />
+`[POST]` `http://localhost:3001/auth/reset_password`<br />
 
 **Exemplo JSON**
 <br />
