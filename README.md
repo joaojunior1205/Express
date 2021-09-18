@@ -9,8 +9,8 @@ URL Base: http://localhost:3001
 
 1. Criar usuário: `[POST]` : `http://localhost:3001/auth/register`
 
-name: String
-email: String
+name: String <br />
+email: String 
 password: String
 
 **Exemplo JSON**
