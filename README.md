@@ -14,10 +14,11 @@
 Estrutura<br />
 URL Base: http://localhost:3001
 
-1. Criar usuário: `[POST]` : `http://localhost:3001/auth/register`
--name: String <br />
--email: String <br />
--password: String <br />
+1. Criar usuário: 
+`[POST]` : `http://localhost:3001/auth/register`
+- name: String <br />
+- email: String <br />
+- password: String <br />
 **Exemplo JSON**
 ```
 {
@@ -28,9 +29,10 @@ URL Base: http://localhost:3001
 
 ```
 
-2. Gerar token auth: `[POST]` : `http://localhost:3001/auth/authenticate` <br />
--email: String <br />
--password: String <br />
+2. Gerar token auth: 
+`[POST]` : `http://localhost:3001/auth/authenticate` <br />
+- email: String <br />
+- password: String <br />
 **Exemplo JSON**
 ```
 {
@@ -39,7 +41,8 @@ URL Base: http://localhost:3001
 }
 ```
 
-3. Validação de usuário: `[GET]` : `http://localhost:3001/projects` <br />
+3. Validação de usuário: 
+`[GET]` : `http://localhost:3001/projects`
 **Exemplo JSON**
 ```
 {
@@ -48,7 +51,8 @@ URL Base: http://localhost:3001
 }	
 ```
 
-4. Esqueceu a senha? Solicite um token para redefinição: `[POST]` : `http://localhost:3001/auth/forgot_password` <br />
+4. Esqueceu a senha? Solicite um token para redefinição: 
+`[POST]` : `http://localhost:3001/auth/forgot_password` <br />
 -email: String <br />
 **Exemplo JSON**
 ```
@@ -57,11 +61,12 @@ URL Base: http://localhost:3001
 }
 ```
 
-4. Esqueceu a senha? Solicite um token para redefinição: `[POST]` : `http://localhost:3001/auth/reset_password` <br />
+4. Esqueceu a senha? Solicite um token para redefinição:
+`[POST]` : `http://localhost:3001/auth/reset_password`
 **Exemplo JSON**
--email: String <br />
--token: String <br />
--password: String <br />
+- email: String <br />
+- token: String <br />
+- password: String <br />
 ```
 {
 	"email": "email",
