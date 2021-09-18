@@ -5,11 +5,8 @@ const router = express.Router();
 
 router.use(authMiddleware);
 
-router.get('/', (req, res) => {
-   res.send({
-      ok: true,
-      user: req.userId,
-   });
+router.get('/', async (req, res) => {
+    res.send({ok: true, id_user: req.userId,});
 });
 
 module.exports = app => app.use('/projects', router);
