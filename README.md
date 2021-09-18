@@ -64,7 +64,7 @@ URL Base: `http://localhost:3001`
 ```
 {
   "ok": true,
-  "id_user": "61460a4d8bc0e8d42b220c2a"
+  "id_user": "id_usuer"
 }	
 ```
 
