@@ -15,9 +15,9 @@ Estrutura<br />
 URL Base: http://localhost:3001
 
 1. Criar usuário: `[POST]` : `http://localhost:3001/auth/register`
-name: String <br />
-email: String <br />
-password: String <br />
+-name: String <br />
+-email: String <br />
+-password: String <br />
 **Exemplo JSON**
 ```
 {
@@ -29,6 +29,8 @@ password: String <br />
 ```
 
 2. Gerar token auth: `[POST]` : `http://localhost:3001/auth/authenticate` <br />
+-email: String <br />
+-password: String <br />
 **Exemplo JSON**
 ```
 {
@@ -43,5 +45,26 @@ password: String <br />
 {
   "ok": true,
   "id_user": "61460a4d8bc0e8d42b220c2a"
+}	
+```
+
+4. Esqueceu a senha? Solicite um token para redefinição: `[POST]` : `http://localhost:3001/auth/forgot_password` <br />
+-email: String <br />
+**Exemplo JSON**
+```
+{
+	"email": "email cadastrado"
+}
+```
+
+4. Esqueceu a senha? Solicite um token para redefinição: `[POST]` : `http://localhost:3001/auth/reset_password` <br />
+**Exemplo JSON**
+-email: String <br />
+-token: String <br />
+-password: String <br />
+{
+	"email": "email",
+	"token": "token recebido no e-mail",
+	"password": "Nova senha"
 }	
 ```
