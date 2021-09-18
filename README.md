@@ -63,8 +63,7 @@ URL Base: `http://localhost:3001`
 <br />
 ```
 {
-  "ok": true,
-  "id_user": "id_usuer"
+	"id_user": "id_usuer"
 }	
 ```
 
