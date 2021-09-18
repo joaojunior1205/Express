@@ -7,12 +7,10 @@
 Estrutura<br />
 URL Base: http://localhost:3001
 
-1. Criar usuário: `[POST]` : `http://localhost:3001/auth/register` <br />
-
+1. Criar usuário: `[POST]` : `http://localhost:3001/auth/register`
 name: String <br />
 email: String <br />
 password: String <br />
-<br />
 **Exemplo JSON**
 ```
 {
