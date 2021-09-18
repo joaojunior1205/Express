@@ -4,6 +4,11 @@
 - Autenticação: authMiddlewar;, jsonwebtoken <br />
 - Criptografia de senha: bcryptjs <br />
 - Bando de dados: MongoDB <br />
+- Mailtrap <br />
+- crypto <br />
+- Path, fs <br />
+- Nodemailer <br />
+- Handlebars <br />
 
 <br />
 
