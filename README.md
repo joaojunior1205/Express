@@ -62,6 +62,7 @@ URL Base: http://localhost:3001
 -email: String <br />
 -token: String <br />
 -password: String <br />
+```
 {
 	"email": "email",
 	"token": "token recebido no e-mail",
