@@ -1,9 +1,9 @@
 # API-Express
 
-Cadastro de usuários <br /> 
-autenticação (authMiddleware, jsonwebtoken) <br />
-Criptografia de senha (bcryptjs) <br />
-Bando de dados: MongoDB <br />
+- Cadastro de usuários <br /> 
+- Autenticação: authMiddlewar;, jsonwebtoken <br />
+- Criptografia de senha: bcryptjs <br />
+- Bando de dados: MongoDB <br />
 
 <br />
 
